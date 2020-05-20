@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+	background-image: url(imagem/fundo.jpg);
+	background-size: auto 100vh;
+	font-family: GoodTimesRg-Regular;
+	height: 100vh; 
+	
+
+}
+.menu {
+	background-color: #ff6c00;
+}
+
+.menu ul {
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu li {
+	list-style: none;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.site-subtitle,
+.site-title {
+	color: black;
+	text-align: center;
+}
+
+.site-subtitle {
+	font-style: italic;
+}
